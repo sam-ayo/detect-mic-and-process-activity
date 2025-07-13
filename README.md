@@ -12,12 +12,6 @@ This is a lightweight utility to help detect microphone activity and what proces
 
 This is an overly simplified version of the [oversight](https://github.com/objective-see/OverSight) macos utility tool that helps detect when microphone or camera are active and what processes are using them
 
-## Building
-
-1. Clone or download this project
-2. Open `MicMonitor.xcodeproj` in Xcode
-3. Build and run (⌘+R) or build for distribution (⌘+B)
-
 ### Command Line Build
 
 ```bash
