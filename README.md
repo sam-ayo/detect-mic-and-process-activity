@@ -42,3 +42,5 @@ Options:
 ```
 
 CREDITS: Oversight
+
+DISCLAIMER: Works for only MacOS for now.
