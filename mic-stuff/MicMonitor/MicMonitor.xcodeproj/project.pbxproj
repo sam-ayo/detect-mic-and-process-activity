@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1111110000000000000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1111110000000000000011 /* main.m */; };
+		AA1111110000000000000002 /* MicMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1111110000000000000012 /* MicMonitor.m */; };
+		AA1111110000000000000003 /* LogMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1111110000000000000013 /* LogMonitor.m */; };
+		AA1111110000000000000004 /* ProcessUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1111110000000000000014 /* ProcessUtils.m */; };
+		AA1111110000000000000005 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1111110000000000000015 /* AVFoundation.framework */; };
+		AA1111110000000000000006 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1111110000000000000016 /* CoreAudio.framework */; };
+		AA1111110000000000000007 /* CoreMediaIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1111110000000000000017 /* CoreMediaIO.framework */; };
+		AA1111110000000000000008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1111110000000000000018 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1111110000000000000010 /* MicMonitor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MicMonitor; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1111110000000000000011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA1111110000000000000012 /* MicMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicMonitor.m; sourceTree = "<group>"; };
+		AA1111110000000000000013 /* LogMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogMonitor.m; sourceTree = "<group>"; };
+		AA1111110000000000000014 /* ProcessUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProcessUtils.m; sourceTree = "<group>"; };
+		AA1111110000000000000021 /* MicMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicMonitor.h; sourceTree = "<group>"; };
+		AA1111110000000000000022 /* LogMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogMonitor.h; sourceTree = "<group>"; };
+		AA1111110000000000000023 /* ProcessUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcessUtils.h; sourceTree = "<group>"; };
+		AA1111110000000000000024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1111110000000000000015 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AA1111110000000000000016 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		AA1111110000000000000017 /* CoreMediaIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMediaIO.framework; path = System/Library/Frameworks/CoreMediaIO.framework; sourceTree = SDKROOT; };
+		AA1111110000000000000018 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1111110000000000000100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1111110000000000000005 /* AVFoundation.framework in Frameworks */,
+				AA1111110000000000000006 /* CoreAudio.framework in Frameworks */,
+				AA1111110000000000000007 /* CoreMediaIO.framework in Frameworks */,
+				AA1111110000000000000008 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1111110000000000000200 = {
+			isa = PBXGroup;
+			children = (
+				AA1111110000000000000220 /* MicMonitor */,
+				AA1111110000000000000210 /* Products */,
+				AA1111110000000000000230 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1111110000000000000210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111110000000000000010 /* MicMonitor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1111110000000000000220 /* MicMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111110000000000000011 /* main.m */,
+				AA1111110000000000000021 /* MicMonitor.h */,
+				AA1111110000000000000012 /* MicMonitor.m */,
+				AA1111110000000000000022 /* LogMonitor.h */,
+				AA1111110000000000000013 /* LogMonitor.m */,
+				AA1111110000000000000023 /* ProcessUtils.h */,
+				AA1111110000000000000014 /* ProcessUtils.m */,
+				AA1111110000000000000024 /* Info.plist */,
+			);
+			path = MicMonitor;
+			sourceTree = "<group>";
+		};
+		AA1111110000000000000230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111110000000000000015 /* AVFoundation.framework */,
+				AA1111110000000000000016 /* CoreAudio.framework */,
+				AA1111110000000000000017 /* CoreMediaIO.framework */,
+				AA1111110000000000000018 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1111110000000000000300 /* MicMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1111110000000000000400 /* Build configuration list for PBXNativeTarget "MicMonitor" */;
+			buildPhases = (
+				AA1111110000000000000310 /* Sources */,
+				AA1111110000000000000100 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicMonitor;
+			productName = MicMonitor;
+			productReference = AA1111110000000000000010 /* MicMonitor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1111110000000000000500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA1111110000000000000300 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA1111110000000000000600 /* Build configuration list for PBXProject "MicMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1111110000000000000200;
+			productRefGroup = AA1111110000000000000210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1111110000000000000300 /* MicMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1111110000000000000310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1111110000000000000001 /* main.m in Sources */,
+				AA1111110000000000000002 /* MicMonitor.m in Sources */,
+				AA1111110000000000000003 /* LogMonitor.m in Sources */,
+				AA1111110000000000000004 /* ProcessUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA1111110000000000000700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA1111110000000000000800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA1111110000000000000900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MicMonitor/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.micmonitor.tool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA1111110000000000001000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MicMonitor/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.micmonitor.tool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1111110000000000000400 /* Build configuration list for PBXNativeTarget "MicMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1111110000000000000900 /* Debug */,
+				AA1111110000000000001000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1111110000000000000600 /* Build configuration list for PBXProject "MicMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1111110000000000000700 /* Debug */,
+				AA1111110000000000000800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1111110000000000000500 /* Project object */;
+} 
